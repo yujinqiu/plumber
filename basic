@@ -3,16 +3,6 @@
 
 include fileaddr
 
-# declarations of ports without rules
-plumb to seemail
-plumb to showmail
-plumb to web
-plumb to msword
-plumb to image
-plumb to pager
-plumb to edit
-plumb to sendmail
-
 # relative files as file: urls get made into absolute paths
 type is text
 data matches 'file:([.a-zA-Z¡-￿0-9_\-]([.a-zA-Z¡-￿0-9_/\-]*[a-zA-Z¡-￿0-9_/\-]))?'
